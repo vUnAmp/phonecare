@@ -82,6 +82,7 @@
 .whyus {
   margin: 20px auto;
   text-align: center;
+
   background: #17a2b8;
   color: white;
   padding: 10px 0;
@@ -92,15 +93,22 @@
 .whyus_card1,
 .whyus_card3 {
   margin-left: -15px;
+  .whyus_title {
+    border-right: 4px solid #17a2b8;
+  }
 }
 .whyus_card2,
 .whyus_card4 {
   margin-left: 30px;
   margin-right: -15px;
+  .whyus_title {
+    border-left: 4px solid #17a2b8;
+  }
 }
 .whyus_title {
   display: flex;
   flex-direction: row;
+  font-size: 16px;
   color: #17a2b8;
   padding-top: 10px;
   padding-left: 8px;

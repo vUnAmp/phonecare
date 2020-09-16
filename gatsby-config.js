@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `PhoneCare Website`,
+    title: `Repairphone24`,
     description: `Repair your phone and tablet with our love !`,
     author: `@gatsbyjs`,
   },

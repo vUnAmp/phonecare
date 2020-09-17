@@ -596,3 +596,30 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+footer {
+  height: 100px;
+}
+.wrap-footer .row {
+  padding-top: 20px;
+}
+.wrap-partner {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.partnerlogo {
+  height: 50px;
+  width: 150px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.partnerlogodhl {
+  background-image: url("../images/partner/dhl.png");
+}
+
+.partnerlogopaypal {
+  background-image: url("../images/partner/paypal.png");
+}

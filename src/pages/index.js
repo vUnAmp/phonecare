@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from "gatsby"
+import { Link, graphql, useStaticQuery, navigate } from "gatsby"
 
 import Image from 'gatsby-image'
 
@@ -10,7 +10,8 @@ import { Carousel, Button, Container, Row, Col, Card } from 'react-bootstrap'
 // import Col from 'react-bootstrap/Col'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTools, faMobileAlt, faKissWinkHeart, faHandshake } from '@fortawesome/free-solid-svg-icons'
+import { faTools, faMobileAlt, faKissWinkHeart, faHandshake, faPhone, faMailBulk } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -194,7 +195,57 @@ const IndexPage = () => {
 
         </Row>
       </Container>
+      <div className="marquee">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div className="reachus">
+        <Row>
+          <Col xs='12' md='4' className='reachus-border' >
+            <div className="reachus-method">
+              <FontAwesomeIcon icon={faPhone} size='2x' color='#17a2b8' /> <h3>Hotline </h3>
+            </div>
+            <span>
 
+              0177 7467357
+              <br />
+              Mi-Mo 9:00 - 18:00 Uhr
+            </span>
+          </Col>
+          <Col xs='12' md='4' className='reachus-border' >
+            <div className="reachus-method ">
+              <FontAwesomeIcon icon={faMailBulk} size='2x' color='#17a2b8' /> <h3>Kontakt</h3>
+            </div>
+            <span>
+              phoneabcdo@gmail.com
+              <br />
+
+            </span>
+          </Col>
+
+          <Col xs='12' md='4' className='reachus-border' onClick={() => {
+            navigate('https://www.facebook.com/suachuaonline24/')
+          }} >
+            <div className="reachus-method reachus-facebook" onClick={() => {
+              navigate('https://www.facebook.com/suachuaonline24/')
+            }}  >
+              <FontAwesomeIcon icon={faFacebook} size='2x' color='#17a2b8' /> <h3>Facebook </h3>
+            </div>
+            <span>
+              Unser Social Medial
+              <br />
+              Gib uns dein Tumb
+            </span>
+
+          </Col>
+        </Row>
+      </div>
 
       {/* <p>Welcome to your new Gatsby site.</p>
       <p>Now go build something great.</p>

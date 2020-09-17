@@ -1,6 +1,7 @@
 import { navigate } from "gatsby"
 import React, { useState } from "react"
 import Layout from "../components/layout"
+import "./contact.scss"
 
 const encode = data => {
   return Object.keys(data)
@@ -32,45 +33,65 @@ const Contact = () => {
 
   return (
     <Layout>
-      <form
-        name="contact"
-        method="post"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-        action="/thanks/"
-        onSubmit={handleSubmit}
-      >
-        {/* You still need to add the hidden input with the form name to your JSX form */}
-        <input type="hidden" name="form-name" value="contact" />
-        <label>
-          Name
-          <input type="text" name="name" id="name" onChange={handleChange} />
-        </label>
-        <label>
-          Email
-          <input type="email" name="email" id="email" onChange={handleChange} />
-        </label>
-        <label>
-          Subject
+      <div className="wrap-form">
+        <form
+          name="contact"
+          method="post"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          action="/thanks/"
+          onSubmit={handleSubmit}
+        >
+          {/* You still need to add the hidden input with the form name to your JSX form */}
+          <input type="hidden" name="form-name" value="contact" />
+          <label>Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            required
+            onChange={handleChange}
+          />
+          <label>Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            onChange={handleChange}
+          />
+
+          <label>Handy</label>
+          <input
+            type="number"
+            name="number"
+            id="number"
+            required
+            onChange={handleChange}
+          />
+
+          <label>Subject</label>
           <input
             type="text"
             name="subject"
             id="subject"
+            required
             onChange={handleChange}
           />
-        </label>
-        <label>
-          Message
+
+          <label>Message</label>
           <textarea
             name="message"
             id="message"
             rows="5"
+            required
             onChange={handleChange}
           />
-        </label>
-        <button type="submit">Send</button>
-        <input type="reset" value="Clear" />
-      </form>
+
+          <button type="submit">Send</button>
+          {/* <input type="reset" value="Clear" /> */}
+        </form>
+      </div>
     </Layout>
   )
 }

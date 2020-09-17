@@ -63,7 +63,7 @@ const IndexPage = () => {
               ✅ Professionelle und schnelle Hilfe innerhalb 1 Stunde!!!
             </span>
           </Carousel.Caption>
-          <Link className="contact" to="/">
+          <Link className="contact" to="/contact">
             <Button variant="primary">Kontakt</Button>
           </Link>
           <Link className="send" to="/">
@@ -85,7 +85,7 @@ const IndexPage = () => {
               ✅ Professionelle und schnelle Hilfe innerhalb 1 Stunde!!!
             </span>
           </Carousel.Caption>
-          <Link className="contact" to="/">
+          <Link className="contact" to="/contact">
             <Button variant="primary">Kontakt</Button>
           </Link>
           <Link className="send" to="/">
@@ -107,7 +107,7 @@ const IndexPage = () => {
               ✅ Professionelle und schnelle Hilfe innerhalb 1 Stunde!!!
             </span>
           </Carousel.Caption>
-          <Link className="contact" to="/">
+          <Link className="contact" to="/contact">
             <Button variant="primary">Kontakt</Button>
           </Link>
           <Link className="send" to="/">

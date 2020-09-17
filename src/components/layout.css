@@ -602,6 +602,7 @@ footer {
 }
 .wrap-footer .row {
   padding-top: 20px;
+  text-align: center;
 }
 .wrap-partner {
   justify-content: center;

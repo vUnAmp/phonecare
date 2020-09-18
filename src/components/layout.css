@@ -602,9 +602,22 @@ pre tt:after {
     margin-top: 100px;
   }
 }
-
+main {
+  min-height: calc(100vh - 203px);
+}
+.wrap-main {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 1.0875rem 1.45rem;
+  /* min-height: calc(100vh - 90px); */
+  position: relative;
+}
 footer {
   height: 100px;
+  /* position: absolute; */
+  margin-top: 10px;
+  bottom: 0;
+  width: 100%;
 }
 .wrap-footer .row {
   padding-top: 20px;

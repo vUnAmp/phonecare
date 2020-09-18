@@ -221,14 +221,16 @@ const IndexPage = () => {
         </Row>
       </Container>
       <div className="marquee">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+        <div className="marquee-child">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
       <div className="reachus">
         <Row>

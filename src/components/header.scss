@@ -131,21 +131,28 @@ header {
 
   a {
     color: #1d2129;
+    padding-left: 0;
   }
 
   .menubar-modal-wrap {
-    padding-left: 20px;
+    // padding-left: 20px;
     height: 80%;
     border-top: 4px solid #ddd;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    // justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 40px;
+    li {
+      margin-top: 20px;
+    }
   }
 
   .menubar-home {
     position: absolute;
     top: 26px;
-    left: 16px;
+    left: 22px;
     font-weight: 700;
     font-size: 20px;
   }
@@ -155,6 +162,7 @@ header {
     top: 20px;
     right: 10px;
     font-weight: 700;
+    font-size: 30px;
   }
 }
 

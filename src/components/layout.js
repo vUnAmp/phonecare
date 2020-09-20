@@ -14,6 +14,8 @@ import { Carousel, Button, Container, Row, Col, Card } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCcPaypal, faDhl, faPaypal } from "@fortawesome/free-brands-svg-icons"
 
+import MessengerCustomerChat from "react-messenger-customer-chat"
+
 import Header from "./header"
 import "./layout.css"
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -52,6 +54,10 @@ const Layout = ({ children }) => {
             </Row>
           </div>
         </footer>
+        <MessengerCustomerChat
+          pageId="<101334158232115>"
+          appId="<540304473573966>"
+        />
       </div>
     </>
   )

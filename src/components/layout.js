@@ -54,8 +54,7 @@ const Layout = ({ children }) => {
             </Row>
           </div>
         </footer>
-        <div className="messenger-fbchat">
-          <h1>Messenger chat</h1>
+        <div>
           <MessengerCustomerChat
             pageId="101334158232115"
             appId="540304473573966"

@@ -10,19 +10,29 @@ const Header = ({ siteTitle }) => (
   <header>
     <div className="wrap-header">
       <div className="wrap-logo">
-        <Link to="/">{siteTitle}</Link>
+        <Link to="/">
+          <span className="blackflag">Suachua</span>
+          <span className="redflag">Online</span>
+          <span className="yellowflag">24</span>
+        </Link>
       </div>
       <nav className="wrap-navlink">
         <ul>
           <li>
             {" "}
-            <Link to="/howitwork"> Gerät senden </Link>{" "}
+            <Link to="/howitwork"> Gửi thiết bị </Link>{" "}
           </li>
           <li>
-            <Link to="/contact"> Kontakt</Link>{" "}
+            <Link to="/jobs">Jobs</Link>{" "}
           </li>
           <li>
-            <Link to="/aboutus"> Über uns </Link>{" "}
+            <Link to="/contact"> Liên hệ</Link>{" "}
+          </li>
+          <li>
+            <Link to="/aboutus"> Giới thiệu</Link>{" "}
+          </li>
+          <li>
+            <Link to="/jobs">Jobs</Link>{" "}
           </li>
         </ul>
       </nav>
@@ -52,13 +62,16 @@ const Header = ({ siteTitle }) => (
           <ul className="menubar-modal-wrap">
             <li>
               {" "}
-              <Link to="/howitwork"> Gerät senden </Link>{" "}
+              <Link to="/howitwork"> Gửi thiết bị </Link>{" "}
             </li>
             <li>
-              <Link to="/contact"> Kontakt</Link>{" "}
+              <Link to="/jobs">Jobs</Link>{" "}
             </li>
             <li>
-              <Link to="/aboutus"> Über uns </Link>{" "}
+              <Link to="/contact"> Liên hệ</Link>{" "}
+            </li>
+            <li>
+              <Link to="/aboutus"> Giới thiệu</Link>{" "}
             </li>
           </ul>
         </div>

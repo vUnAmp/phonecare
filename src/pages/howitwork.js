@@ -5,7 +5,7 @@ const howitwork = () => {
   return (
     <Layout>
       {" "}
-      <h1>Is fking writing ...( wait for herr Minh)</h1>
+      <h1>Is building ....</h1>
     </Layout>
   )
 }

@@ -56,18 +56,16 @@ const IndexPage = () => {
             className="d-block w-100 background1"
           />
           <Carousel.Caption>
-            <h2 className="titleProduct"> Reparatur in Berlin!</h2>
-            <span>✅ Displays Original Qualität.</span>
-            <span>✅ Display oder Akku Reparatur inh. 1 Std.</span>
-            <span>
-              ✅ Professionelle und schnelle Hilfe innerhalb 1 Stunde!!!
-            </span>
+            <h2 className="titleProduct">Sửa chữa Online Deutschland</h2>
+            <span>✅ Thay màn hình chất lượng gốc</span>
+            <span>✅ Thay PIN trong vòng 1h đồng hồ </span>
+            <span>✅ Chất lượng và dịch vụ chuyên nghiệp</span>
           </Carousel.Caption>
           <Link className="contact" to="/contact">
-            <Button variant="primary">Kontakt</Button>
+            <Button variant="primary">Liên hệ</Button>
           </Link>
           <Link className="send" to="/">
-            <Button variant="primary">Gerät senden</Button>
+            <Button variant="primary">Gửi thiết bị</Button>
           </Link>
         </Carousel.Item>
         <Carousel.Item className="wrap-bg2">
@@ -78,18 +76,16 @@ const IndexPage = () => {
           />
 
           <Carousel.Caption>
-            <h2 className="titleProduct"> Reparatur in Berlin!</h2>
-            <span>✅ Displays Original Qualität.</span>
-            <span>✅ Display oder Akku Reparatur inh. 1 Std.</span>
-            <span>
-              ✅ Professionelle und schnelle Hilfe innerhalb 1 Stunde!!!
-            </span>
+            <h2 className="titleProduct">Sửa chữa Online Deutschland</h2>
+            <span>✅ Thay màn hình chất lượng gốc</span>
+            <span>✅ Thay PIN trong vòngvòng 1h đồng hồ </span>
+            <span>✅ Chất lượng và dịch vụ chuyên nghiệp</span>
           </Carousel.Caption>
           <Link className="contact" to="/contact">
-            <Button variant="primary">Kontakt</Button>
+            <Button variant="primary">Liên hệ</Button>
           </Link>
           <Link className="send" to="/">
-            <Button variant="primary">Gerät senden</Button>
+            <Button variant="primary">Gửi thiết bị</Button>
           </Link>
         </Carousel.Item>
         <Carousel.Item className="wrap-bg1">
@@ -100,42 +96,39 @@ const IndexPage = () => {
           />
 
           <Carousel.Caption>
-            <h2 className="titleProduct"> Reparatur in Berlin!</h2>
-            <span>✅ Displays Original Qualität.</span>
-            <span>✅ Display oder Akku Reparatur inh. 1 Std.</span>
-            <span>
-              ✅ Professionelle und schnelle Hilfe innerhalb 1 Stunde!!!
-            </span>
+            <h2 className="titleProduct">Sửa chữa Online Deutschland</h2>
+            <span>✅ Thay màn hình chất lượng gốc</span>
+            <span>✅ Thay PIN trong vòng 1h đồng hồ </span>
+            <span>✅ Chất lượng và dịch vụ chuyên nghiệp</span>
           </Carousel.Caption>
           <Link className="contact" to="/contact">
-            <Button variant="primary">Kontakt</Button>
+            <Button variant="primary">Liên hệ</Button>
           </Link>
           <Link className="send" to="/">
-            <Button variant="primary">Gerät senden</Button>
+            <Button variant="primary">Gửi thiết bị</Button>
           </Link>
         </Carousel.Item>
       </Carousel>
-      <h3 className="whyus"> Wieso haben Sie sich bei uns gewählt? </h3>
+      <h3 className="whyus"> CHÚNG TÔI CÓ THỂ GIÚP GÌ ĐƯỢC CHO BẠN? </h3>
       <Container>
         <Row>
           <Col xs="12" md="6" className="whyus_card whyus_card1">
             <Card>
               <div className="whyus_title">
                 <FontAwesomeIcon icon={faTools} size="2x" color="#17a2b8" />{" "}
-                <h3>Deine Handy Reparatur </h3>
+                <h3>Sửa chữa điện thoại </h3>
               </div>
 
               <Card.Body>
                 <Card.Text>
-                  Wir vom Repair-Dome bieten dir einen Rundum-Service für die
-                  Reparatur deines Smartphones, Tablets oder Wearable. Egal ob
-                  Displayschaden, Wasserschaden, technischer Defekt oder
-                  Softwareprobleme - wir reparieren schnellstmöglich. Als
-                  zertifiziertes und autorisiertes Repaircenter für Hersteller
-                  wie Samsung, HUAWEI, Wiko und Co. bieten wir dir innerhalb und
-                  außerhalb der Garantie besten Service. Unsere kompetenten und
-                  herstellergeschulten Techniker sorgen für eine schnelle Handy
-                  Reparatur.
+                  Cung cấp dịch vụ sửa chữa điện thoại tốt nhất, với nhiều kỹ
+                  thuật giỏi, nhiều năm kinh nghiệm, áp dụng công nghệ tiên tiến
+                  nhất.
+                  <br />
+                  <div className="space"> </div>
+                  Chúng tôi nhận sửa chữa phần cứng, nâng cấp phần mềm,thay màn
+                  hình, thay PIN và những hỏng hóc liên quan đến máy tính bảng
+                  và điện thoại của các bạn
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -144,24 +137,18 @@ const IndexPage = () => {
             <Card>
               <div className="whyus_title">
                 <FontAwesomeIcon icon={faMobileAlt} size="2x" color="#17a2b8" />{" "}
-                <h3>Handy kaputt? Wir helfen! </h3>
+                <h3>Tư vấn miễn phí </h3>
               </div>
 
               <Card.Body>
                 <Card.Text>
-                  Sende uns jederzeit dein defektes Handy, Tablet oder Wearable
-                  und wir reparieren es für dich.
+                  Bạn băn khoăn về việc lựa chọn thiết bị mới phù hợp với nhu
+                  cầu và công việ việc của mình, chúng tôi có thể tư vấn miễn
+                  phí giúp các bạn có những lựa chọn phù hợp nhất
                   <br />
-                  <br />
-                  Egal ob innerhalb oder außerhalb der Garantie - wir machen
-                  dein Gerät wieder fit!
-                  <br />
-                  Du kannst uns natürlich auch im Repair-Dome in Nordhorn
-                  besuchen und bei deiner Reparatur direkt zuschauen.
-                  <br />
-                  <br />
-                  Mach es dir in unserer Repair-Dome Lounge gemütlich und lass
-                  unsere Techniker die Arbeit für dich erledigen.
+                  <div className="space"> </div>
+                  Bạn có nhu cầu sử dụng các loại SIM CARD INTERNET hoặc các vấn
+                  đề khác liên quan đến thiết bị của các bạn.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -174,21 +161,19 @@ const IndexPage = () => {
                   size="2x"
                   color="#17a2b8"
                 />{" "}
-                <h3>Deine Vorteile </h3>
+                <h3>Lợi ích của bạn</h3>
               </div>
 
               <Card.Body>
                 <Card.Text>
-                  Eine Handy Reparatur ist immer mit Aufwand verbunden. Egal, ob
-                  es sich um einen Displayschaden, Wasserschaden oder einen
-                  Garantiefall handelt. Das Repair-Dome Team kümmert sich um
-                  alle anfallenden Schäden, schnell und zuverlässig. Wenn du in
-                  der Region wohnst, geht es sogar mit einem Besuch bei uns ganz
-                  besonders schnell. Du kannst Live dabei sein und dein Handy
-                  während der Reparatur immer im Auge behalten. Solltest du für
-                  die Handy Reparatur das Gerät einschicken, sorgen wir für eine
-                  schnelle Abwicklung und sofortigen Versand nach der
-                  Fertigstellung. Überzeuge dich selbst!
+                  Gửi và nhận lại thiết bị trong thời gian ngắn nhất. Với DHL
+                  HERMES là đối tác lâu năm, chúng tôi cam kết tối đađa 5 ngày
+                  làm việc bạn sẽ nhận lại được thiết bị của mình
+                  <br />
+                  <div className="space"> </div>
+                  Chúng tôi luôn cung cấp các loại linh kiện đi kèm vỏ viền,
+                  kính lưng cho tất cả các dòng điện thoại mới nhất. Đảm bảo
+                  điện thoại của bạn luôn luôn như mới và hợp thời trang
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -197,23 +182,19 @@ const IndexPage = () => {
             <Card>
               <div className="whyus_title">
                 <FontAwesomeIcon icon={faHandshake} size="2x" color="#17a2b8" />{" "}
-                <h3>Handy kaputt? Wir helfen! </h3>
+                <h3>Đảm bảo dữ liệu</h3>
               </div>
 
               <Card.Body>
                 <Card.Text>
-                  Ein Displayschaden verursacht immer Ärger und schränkt zu dem
-                  auch noch die Funktionsfähigkeit deines Handys ein. Das
-                  gleiche gilt ärgerlicherweise auch bei einem Wasserschaden.
-                  Wir versprechen dir, dass wir schnellstmöglich deine Reparatur
-                  durchführen und dazu für die Hersteller Samsung, HUAWEI und
-                  WIKO ausschließlich original Ersatzteile für dein Gerät
-                  verwenden.
+                  Chúng tôi luôn đảm bảo quyền riêng tư của các bạn về những
+                  hình ảnh, nội dung trong các thiết bị của các bạn. Cũng như
+                  không làm mất dữ liệu của các thiết bị
                   <br />
-                  Bei Smartphones, Tablets oder Wearables anderer Hersteller
-                  verwenden wir immer originalgetreue Ersatzteile. Das
-                  gewährleistet eine hohe Qualität und dein Handy läuft wieder
-                  wie am Schnürchen.
+                  <div className="space"> </div>
+                  Với phương châm luôn đặt mình vào địa vị khách hàng, chúng tôi
+                  mang lại cho khách hàng sự thoải mái và tiện dụng khi sử dụng
+                  các dịch vụ của chúng tôi.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -274,9 +255,9 @@ const IndexPage = () => {
               <h3>Facebook </h3>
             </div>
             <span>
-              Unser Social Medial
+              Mạng xã hội
               <br />
-              Gib uns dein Tumb
+              Like để nhận thông tin mới
             </span>
           </Col>
         </Row>

@@ -33,6 +33,7 @@ const Contact = () => {
 
   return (
     <Layout>
+      <h3 className="contact-title">Gửi tin nhắn</h3>
       <div className="wrap-form">
         <form
           name="contact"

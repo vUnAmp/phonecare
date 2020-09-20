@@ -643,3 +643,11 @@ footer {
 .partnerlogopaypal {
   background-image: url("../images/partner/paypal.png");
 }
+.messenger-fbchat {
+  position: fixed;
+  width: 200px;
+  height: 600px;
+  bottom: 0;
+  right: 0;
+  background: pink;
+}

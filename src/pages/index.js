@@ -47,7 +47,7 @@ const IndexPage = () => {
   console.log(data)
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="SuachuaOnline24" />
       <Carousel>
         <Carousel.Item className="wrap-bg1">
           <Image

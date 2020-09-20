@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Repairphone24`,
+    title: `Chuyên sửa chữa điện thoại Deutschland`,
     description: `Repair your phone and tablet with our love !`,
     author: `@gatsbyjs`,
   },

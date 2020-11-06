@@ -78,7 +78,7 @@ const IndexPage = () => {
           <Carousel.Caption>
             <h2 className="titleProduct">Sửa chữa Online Deutschland</h2>
             <span>✅ Thay màn hình chất lượng gốc</span>
-            <span>✅ Thay PIN trong vòngvòng 1h đồng hồ </span>
+            <span>✅ Thay PIN trong vòng 1h đồng hồ </span>
             <span>✅ Chất lượng và dịch vụ chuyên nghiệp</span>
           </Carousel.Caption>
           <Link className="contact" to="/contact">

@@ -58,12 +58,15 @@
   bottom: unset;
   text-align: start;
   color: #0f1111;
-  max-height: 160px;
+  // max-height: 160px;
   overflow: hidden;
   @media (max-width: 374px) {
     top: -5%;
     h2 {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
+    }
+    span {
+      font-size: 1rem;
     }
   }
 

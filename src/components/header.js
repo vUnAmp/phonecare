@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
             <Link to="/howitwork"> Gửi thiết bị </Link>{" "}
           </li>
           <li>
-            <Link to="/jobs">Jobs</Link>{" "}
+            <Link to="/termin">Termin</Link>{" "}
           </li>
           <li>
             <Link to="/contact"> Liên hệ</Link>{" "}
@@ -63,6 +63,9 @@ const Header = ({ siteTitle }) => (
             <li>
               {" "}
               <Link to="/howitwork"> Gửi thiết bị </Link>{" "}
+            </li>
+            <li>
+              <Link to="/termin">Termin</Link>{" "}
             </li>
             <li>
               <Link to="/jobs">Jobs</Link>{" "}

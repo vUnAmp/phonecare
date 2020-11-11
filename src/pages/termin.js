@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import Layout from "../components/layout"
 
 import "./termin.scss"
@@ -8,6 +8,7 @@ const day = +d.getDate()
 const year = d.getFullYear()
 const fullDate = [year, month, day].join("-")
 const Termin = () => {
+  const [terminDate, setTerminDate] = useState(`${fullDate}T00:00`)
   return (
     <Layout>
       <form action="" className="termin">
@@ -27,14 +28,21 @@ const Termin = () => {
           id="meeting-time"
           name="meeting-time"
           // value="2018-06-12T19:30"
-          value={`${fullDate}T00:00`}
+          value={terminDate}
           onChange={e => {
-            console.log(e.target.value)
+            setTerminDate(e.target.value)
           }}
           min="2020-06-07T00:00"
           max="2021-10-14T00:00"
         ></input>
-        <button>Termin confirm</button>
+        <button
+          onClick={e => {
+            e.preventDefault()
+            alert("Just a demo....^^")
+          }}
+        >
+          Termin confirm
+        </button>
       </form>
     </Layout>
   )
